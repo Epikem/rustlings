@@ -2,8 +2,8 @@ tasks:
   - init: /workspace/rustlings/install.sh
     command: /workspace/.cargo/bin/rustlings watch
 
-image:
-  file: ./.gitpod.Dockerfile
+# image:
+#   file: ./.gitpod.Dockerfile
 
 vscode:
   extensions:
